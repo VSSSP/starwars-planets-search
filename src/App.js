@@ -2,12 +2,15 @@ import React from 'react';
 import './App.css';
 import HomePage from './pages/HomePage';
 import Provider from './context/Provider';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <Provider>
-      <HomePage />
-    </Provider>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Provider>
+        <HomePage />
+      </Provider>
+    </BrowserRouter>
   );
 }
 
