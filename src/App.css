@@ -1,3 +1,7 @@
+* {
+  background-color: whitesmoke;
+}
+
 /* TABLE  */
 
 .row {
@@ -24,6 +28,27 @@
   justify-content: center;
 }
 
+.starwars-chars {
+  width: 150px;
+}
+
+.table-logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.luke {
+  width: 120px;
+  margin-right: 10px;
+  margin-bottom: 38px;
+}
+
+.vader {
+  margin-top: 20px;
+}
+
 /* FILTERS  */
 
 .filters {
@@ -44,7 +69,7 @@
   text-shadow: 5px 6px 7px #aaa;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 5px;
 }
@@ -69,7 +94,7 @@
   text-shadow: 5px 6px 7px #aaa;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 5px;
 }
@@ -83,7 +108,17 @@
   text-shadow: 5px 6px 7px #aaa;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 5px;
+}
+
+.select-filters {
+  height: 30px;
+  border-radius: 5%;
+  margin: 3px
+}
+
+.input-filters {
+  margin: 5px;
 }

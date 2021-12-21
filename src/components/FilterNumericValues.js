@@ -54,10 +54,12 @@ export default function FilterNumericValues() {
   return (
     <div className="numeric-filters">
       <div className="numeric-filters-box1">
-        <select onChange={ handleChange } data-testid="column-filter" name="column">
+        Ordernar por:
+        <select className="select-filters" onChange={ handleChange } data-testid="column-filter" name="column">
           {col.map((c) => <option key={ c } value={ c }>{c}</option>)}
         </select>
-        <select data-testid="comparison-filter" name="comparison" onChange={ handleChange }>
+        Que seja:
+        <select className="select-filters" data-testid="comparison-filter" name="comparison" onChange={ handleChange }>
           {comparisons.map((comp) => <option value={ comp } key={ comp }>{comp}</option>)}
         </select>
         <input
@@ -65,8 +67,10 @@ export default function FilterNumericValues() {
           data-testid="value-filter"
           name="valor"
           onChange={ handleChange }
+          placeholder="Quantidade"
           />
         <button
+          className="button-filters"
           type="button"
           data-testid="button-filter"
           onClick={ handleClick }

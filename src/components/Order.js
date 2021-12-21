@@ -38,13 +38,15 @@ export default function Order() {
 
   return (
     <div className="numeric-filters-box2">
-      <select data-testid="column-sort" onChange={ handleOrder } name="column">
+      Ordenar por: 
+      <select className="select-filters" data-testid="column-sort" onChange={ handleOrder } name="column">
         { Object.keys(planets[0]).map((planetInfo) => (
           planetInfo !== 'residents' ? <option key={ planetInfo }>{planetInfo}</option>
             : null
         )) }
       </select>
       <input
+        className="input-filters"
         type="radio"
         name="sort"
         value="ASC"
@@ -53,6 +55,7 @@ export default function Order() {
       />
       Ascendente
       <input
+        className="input-filters"
         type="radio"
         name="sort"
         value="DESC"
@@ -60,7 +63,6 @@ export default function Order() {
         onChange={ handleOrder }
       />
       Descendente
-      <button type="button" data-testid="column-sort-button"> Ordenar </button>
     </div>
   );
 }
