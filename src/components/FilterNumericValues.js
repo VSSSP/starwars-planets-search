@@ -52,26 +52,28 @@ export default function FilterNumericValues() {
   };
 
   return (
-    <div>
-      <select onChange={ handleChange } data-testid="column-filter" name="column">
-        {col.map((c) => <option key={ c } value={ c }>{c}</option>)}
-      </select>
-      <select data-testid="comparison-filter" name="comparison" onChange={ handleChange }>
-        {comparisons.map((comp) => <option value={ comp } key={ comp }>{comp}</option>)}
-      </select>
-      <input
-        type="number"
-        data-testid="value-filter"
-        name="valor"
-        onChange={ handleChange }
-      />
-      <button
-        type="button"
-        data-testid="button-filter"
-        onClick={ handleClick }
-      >
-        Filtrar
-      </button>
+    <div className="numeric-filters">
+      <div className="numeric-filters-box1">
+        <select onChange={ handleChange } data-testid="column-filter" name="column">
+          {col.map((c) => <option key={ c } value={ c }>{c}</option>)}
+        </select>
+        <select data-testid="comparison-filter" name="comparison" onChange={ handleChange }>
+          {comparisons.map((comp) => <option value={ comp } key={ comp }>{comp}</option>)}
+        </select>
+        <input
+          type="number"
+          data-testid="value-filter"
+          name="valor"
+          onChange={ handleChange }
+          />
+        <button
+          type="button"
+          data-testid="button-filter"
+          onClick={ handleClick }
+          >
+          Filtrar
+        </button>
+      </div>
       <Order />
       <DeleteFilters />
     </div>

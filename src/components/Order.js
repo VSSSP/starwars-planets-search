@@ -37,7 +37,7 @@ export default function Order() {
   }
 
   return (
-    <div>
+    <div className="numeric-filters-box2">
       <select data-testid="column-sort" onChange={ handleOrder } name="column">
         { Object.keys(planets[0]).map((planetInfo) => (
           planetInfo !== 'residents' ? <option key={ planetInfo }>{planetInfo}</option>

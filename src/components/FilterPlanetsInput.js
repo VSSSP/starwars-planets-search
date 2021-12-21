@@ -10,8 +10,10 @@ export default function FilterPlanetsByInput() {
   };
 
   return (
-    <div>
+    <div className="input-filter-box">
+      <span>Digite o nome do Planeta:</span>
       <input
+        className="input-filter"
         data-testid="name-filter"
         type="text"
         onChange={ handleChange }
