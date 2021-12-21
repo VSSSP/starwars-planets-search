@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/starwars-planets-search/static/css/main.0c8dd27f.chunk.css",
-    "main.js": "/starwars-planets-search/static/js/main.b0ac1a69.chunk.js",
-    "main.js.map": "/starwars-planets-search/static/js/main.b0ac1a69.chunk.js.map",
+    "main.css": "/starwars-planets-search/static/css/main.1d71f32b.chunk.css",
+    "main.js": "/starwars-planets-search/static/js/main.a572b837.chunk.js",
+    "main.js.map": "/starwars-planets-search/static/js/main.a572b837.chunk.js.map",
     "runtime-main.js": "/starwars-planets-search/static/js/runtime-main.d5e8347d.js",
     "runtime-main.js.map": "/starwars-planets-search/static/js/runtime-main.d5e8347d.js.map",
-    "static/js/2.0e086652.chunk.js": "/starwars-planets-search/static/js/2.0e086652.chunk.js",
-    "static/js/2.0e086652.chunk.js.map": "/starwars-planets-search/static/js/2.0e086652.chunk.js.map",
+    "static/js/2.119592e4.chunk.js": "/starwars-planets-search/static/js/2.119592e4.chunk.js",
+    "static/js/2.119592e4.chunk.js.map": "/starwars-planets-search/static/js/2.119592e4.chunk.js.map",
     "index.html": "/starwars-planets-search/index.html",
-    "precache-manifest.1995d8facb0755f5aa982dfc88dcc328.js": "/starwars-planets-search/precache-manifest.1995d8facb0755f5aa982dfc88dcc328.js",
+    "precache-manifest.a9857fcd44e6b07b49a36076205fa2f8.js": "/starwars-planets-search/precache-manifest.a9857fcd44e6b07b49a36076205fa2f8.js",
     "service-worker.js": "/starwars-planets-search/service-worker.js",
-    "static/css/main.0c8dd27f.chunk.css.map": "/starwars-planets-search/static/css/main.0c8dd27f.chunk.css.map",
-    "static/js/2.0e086652.chunk.js.LICENSE.txt": "/starwars-planets-search/static/js/2.0e086652.chunk.js.LICENSE.txt"
+    "static/css/main.1d71f32b.chunk.css.map": "/starwars-planets-search/static/css/main.1d71f32b.chunk.css.map",
+    "static/js/2.119592e4.chunk.js.LICENSE.txt": "/starwars-planets-search/static/js/2.119592e4.chunk.js.LICENSE.txt",
+    "static/media/luke.png": "/starwars-planets-search/static/media/luke.00f28d83.png",
+    "static/media/starwars.png": "/starwars-planets-search/static/media/starwars.b2d30e6d.png",
+    "static/media/vader.png": "/starwars-planets-search/static/media/vader.5dc128ef.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d5e8347d.js",
-    "static/js/2.0e086652.chunk.js",
-    "static/css/main.0c8dd27f.chunk.css",
-    "static/js/main.b0ac1a69.chunk.js"
+    "static/js/2.119592e4.chunk.js",
+    "static/css/main.1d71f32b.chunk.css",
+    "static/js/main.a572b837.chunk.js"
   ]
 }
